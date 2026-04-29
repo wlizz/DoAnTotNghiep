@@ -1,0 +1,129 @@
+@import "../../../App.scss";
+.dashboard-container {
+  h4 {
+    color: rgba(187, 6, 6, 0.848);
+  }
+  .dashboard-report {
+    margin: 5px;
+    .report-header {
+      align-items: center;
+      margin-bottom: 15px;
+      .group-radio {
+        margin-left: 10px;
+      }
+    }
+    .report-chart {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+  .dashboard-report-time {
+    .report-time-item {
+      background-color: white;
+      border-radius: 5px;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px;
+      .title-report {
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+        line-height: 21px;
+        margin: 0px 0px 4px;
+        text-align: left;
+      }
+      .value-report {
+        color: #141414;
+        display: inline;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+        line-height: 30px;
+        text-align: left;
+      }
+      .icon-report {
+        background-color: rgb(0, 149, 255);
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+    }
+  }
+  .report-invoice {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    h4 {
+      margin: 10px;
+    }
+    .header-invoice {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .link-action {
+        font-style: italic;
+        text-decoration: underline;
+      }
+    }
+  }
+  .report-product {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    h4 {
+      margin-top: 10px;
+    }
+    .product-item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 10px 5px;
+      background-color: rgb(242, 242, 242);
+      border-radius: 5px;
+      padding: 10px;
+      .image-container {
+        width: 100px;
+        height: 100px;
+        box-shadow: 5px 5px 5px;
+        border-radius: 5px;
+        .img-product {
+          border-radius: 5px;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          border-radius: 10px;
+        }
+      }
+      .product-info {
+        justify-content: flex-end;
+        .title-name {
+          text-align: right;
+          font-weight: 600;
+          font-size: 16px;
+          color: rgb(0, 0, 0);
+        }
+        .sale {
+          text-align: right;
+          .title-sale {
+            text-align: right;
+            font-weight: 700;
+            font-size: 16px;
+            color: rgb(203, 51, 4);
+          }
+        }
+        .price {
+          text-align: right;
+          .value-price {
+            text-align: right;
+            font-weight: 700;
+            font-size: 16px;
+            color: rgb(0, 148, 162);
+          }
+        }
+      }
+    }
+  }
+}

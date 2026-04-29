@@ -1,0 +1,47 @@
+@import '../../index.scss';
+.cart-container {
+  background-color: rgb(255, 255, 255);
+  top: 10%;
+  margin: 50px;
+  box-shadow: 10px 10px 20px ;
+  border-radius: 10px;
+  .info-checkout {
+    text-align: center;
+    width: 100%;
+    h5{
+      margin: 10px;
+    }
+  }
+  h5 {
+    margin: 5px;
+  }
+  .button {
+    background-color: $main;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    width: 300px;
+  }
+  .checkout-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .checkout-info-pay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    .text{
+      font-weight: 600;
+    }
+    .value {
+      font-weight: 800;
+      font-size: 20px;
+      color: red;
+    }
+  }
+}

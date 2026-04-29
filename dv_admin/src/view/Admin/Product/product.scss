@@ -1,0 +1,12 @@
+@import "../../../App.scss";
+.category-container {
+  .header-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .title-category {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

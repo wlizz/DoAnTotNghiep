@@ -1,0 +1,13 @@
+@import "../../index.scss";
+.user-container {
+  margin: 100px 20%;
+  .image-icon-user {
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 10px 20px;
+    padding: 30px;
+    border-radius: 20px;
+    height: 100%;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../../App.scss";
+.import-create-new-container {
+  .import-create-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    h4 {
+      margin-left: 10px;
+    }
+  }
+  .form-select-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    h5 {
+      padding-right: 30px;
+    }
+  }
+  .form-select-provider {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    h5 {
+      margin-bottom: 10px;
+    }
+    .form-select-provider-add {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .form-payment-import {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    h5 {
+      margin: 10px;
+    }
+    .form-payment-import-item {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px;
+      p {
+        min-width: 100px;
+      }
+    }
+    .info-payment-import-item {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      .info-payment {
+        color: red;
+        font-weight: 600;
+        margin: 10px 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../../App.scss";
+.import-detail-info-item {
+  display: flex;
+  flex-direction: row;
+  .title-item {
+    min-width: 150px;
+  }
+  .value-item {
+    font-weight: 500;
+    color: rgb(156, 5, 5)
+  }
+}

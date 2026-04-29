@@ -1,0 +1,41 @@
+// .sign-in-container {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   .right {
+//     width: 100%;
+//     margin-top: 10%;
+//     display: flex;
+//     justify-content: center;
+//     .form-input-login {
+//       border-radius: 15px;
+//       padding: 0px 50px;
+//       box-shadow: 10px 10px 20px;
+//       text-align: center;
+//       h5 {
+//         font-size: 33px;
+//       }
+//       p {
+//         margin-left: 0px;
+//       }
+//     }
+//   }
+// }
+.sign-in-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Background image */
+  background-image: url('../../assets/images/image_bd087027.png'); // sửa đường dẫn đúng ảnh của bạn
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.right {
+  background: rgba(255, 255, 255, 0.9); // làm nền form nổi lên
+  padding: 30px;
+  border-radius: 10px;
+}

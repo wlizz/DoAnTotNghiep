@@ -1,0 +1,19 @@
+@import "../../index.scss";
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: $main;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 0px;
+  .header-container-menu {
+    justify-content: space-between;
+    background-color: $main;
+    color: white;
+  }
+  .input-search {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../../../App.scss";
+
+.category-container {
+  .header-container {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    h5 {
+      font-weight: 600;
+      margin: 10px;
+    }
+    .button-add {
+      display: flex;
+      align-items: center;
+      background-color: rgb(249, 93, 41);
+    }
+  }
+  .search-container {
+    text-align: right;
+    margin-right: 10px;
+    .input {
+      max-width: 300px;
+    }
+  }
+}

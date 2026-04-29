@@ -1,0 +1,7 @@
+export const LOGIN = 'LOGIN'
+export const LOGIN_REQUEST = 'LOGIN_REQUEST'
+export const SAVE_TOKEN = 'SAVE_TOKEN'
+export const SAVE_ORDER = 'SAVE_ORDER'
+export const UPDATE_CART = 'UPDATE_CART'
+export const CLEAR_CART = 'CLEAR_CART'
+export const LOG_OUT = 'LOG_OUT'

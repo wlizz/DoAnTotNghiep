@@ -1,0 +1,17 @@
+export const LOGO = require("./images/logo.png");
+export const BG_SIGNIN = require("./images/bg-signin.png");
+export const AVATAR2 = require("./images/team-2.jpg"); 
+export const AVA1 = require("./images/logo-shopify.svg");
+export const AVA2 = require("./images/logo-atlassian.svg");
+export const AVA3 = require("./images/logo-slack.svg");
+export const AVA4 = require("./images/logo-spotify.svg");
+export const AVA5 = require("./images/logo-jira.svg");
+export const AVA6 = require("./images/logo-invision.svg");
+export const TEAM1 = require("./images/team-1.jpg");
+export const TEAM2 = require("./images/team-2.jpg");
+export const TEAM3 = require("./images/team-3.jpg");
+export const TEAM4 = require("./images/team-4.jpg");
+export const CARD = require("./images/info-card-1.jpg");
+export const HOME = require("./images/home.png");
+export const BANNER1 = require("./images/banner1.jpg");
+export const BANNER2 = require("./images/banner2.jpg");

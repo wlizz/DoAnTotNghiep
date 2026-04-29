@@ -1,0 +1,23 @@
+@import "../../../App.scss";
+.modal-invoice-detail-container {
+  .invoice-detail-info-item {
+    display: flex;
+    flex-direction: row;
+    .title-item {
+      min-width: 150px;
+    }
+    .value-item {
+      font-weight: 500;
+      color: rgb(156, 5, 5)
+    }
+  }
+  .button-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .button-group{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

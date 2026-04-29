@@ -1,0 +1,144 @@
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+/* 🔵 NÚT CHAT */
+.chat-button {
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(135deg, #1677ff, #4096ff);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  font-size: 26px;
+
+  border: 2px solid rgba(255, 255, 255, 0.9);
+
+  box-shadow: 0 8px 18px rgba(22, 119, 255, 0.28);
+
+  transition: all 0.25s ease;
+}
+
+/* 🔵 KHUNG CHAT */
+.chatbox {
+  width: 320px;
+  height: 420px;
+  background: white;
+
+  /* 🔥 bo tròn mạnh */
+  border-radius: 20px;
+
+  /* 🔥 viền đen */
+  border: 2px solid black;
+
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+
+  /* 🔥 shadow xịn */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+  overflow: hidden; // 🔥 giữ bo tròn đẹp
+}
+
+/* HEADER */
+.chat-header {
+  padding: 12px;
+  background: #1677ff;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* BODY */
+.chat-body {
+  padding: 10px;
+  overflow-y: auto;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* USER */
+.msg.user {
+  text-align: right;
+  color: #1677ff;
+  margin: 5px 0;
+}
+
+/* BOT */
+.msg.bot {
+  text-align: left;
+  margin: 5px 0;
+}
+
+/* INPUT */
+.chat-input {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+}
+
+/* OPTION */
+.chat-options {
+  text-align: center;
+  padding: 10px;
+}
+
+.chat-options p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.chat-products {
+  display: flex;
+  flex-direction: column; // 👈 QUAN TRỌNG
+  gap: 10px;
+}
+
+.chat-product-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.chat-product-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.chatbox {
+  transition: all 0.3s ease;
+}
+.chat-product-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.chat-product-name {
+  font-size: 14px;
+  font-weight: 500;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* ✅ chỉ 2 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  line-height: 1.4;
+  max-height: 2.8em; /* fallback */
+}
+
+/* 💰 GIÁ */
+.chat-product-price {
+  color: red;
+  font-weight: bold;
+  margin-top: 4px;
+}

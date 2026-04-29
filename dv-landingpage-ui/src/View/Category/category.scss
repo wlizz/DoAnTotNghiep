@@ -1,0 +1,36 @@
+@import "../../index.scss";
+.category-container {
+  .header-category {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    .image-banner {
+      width: 100%;
+      opacity: 0.5;
+    }
+    .center {
+      position: absolute;
+      width: 100%;
+      top: 30%;
+      text-align: center;
+      h4{
+        font-weight: 700;
+      }
+    }
+  }
+  .font-filter-container {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: auto;
+    .title-category {
+      font-weight: 600;
+      font-size: 18px;
+      color: $main;
+      box-shadow: 5px 5px ;
+      margin: 10px;
+      border-radius: 2px;
+    }
+  }
+}

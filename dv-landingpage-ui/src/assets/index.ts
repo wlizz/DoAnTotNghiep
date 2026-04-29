@@ -1,0 +1,14 @@
+export const ICON_USER = require("./images/user.png");
+export const ICON_DRIVER = require("./images/driver.png");
+export const ICON_CALENDAR = require("./images/calendar.png");
+export const SLIDE_1 = require("./images/slide1.jpg");
+export const SLIDE_2 = require("./images/slide2.jpg");
+export const SLIDE_4 = require("./images/slide4.jpg");
+export const SLIDE_3 = require("./images/slide3.jpg");
+export const BRANCH_1 = require("./images/logobandai.png");
+export const BRANCH_2 = require("./images/logoafatcat.jpg");
+export const BRANCH_3 = require("./images/lolokoto.jpg");
+export const BRANCH_4 = require("./images/branch4.jpg");
+export const BRANCH_5 = require("./images/branch5.jpg");
+export const BRANCH_6 = require("./images/branch6.jpg");
+export const BANNER_MAY1 = require("./images/image_599ffd29.png");
