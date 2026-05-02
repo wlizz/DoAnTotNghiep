@@ -592,7 +592,7 @@ export default function ChatBox() {
       }
     }
 
-    return { type: "bot", text: "Tớ bị ngu, phiền cậu chat dài hơn và chi tiết hơn nhé !" };
+    return { type: "bot", text: "Tớ bị ngốc, phiền cậu chat dài hơn và chi tiết hơn nhé !" };
   };
 
   const handleSend = async () => {
