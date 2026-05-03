@@ -592,7 +592,7 @@ export default function ChatBox() {
       }
     }
 
-    return { type: "bot", text: "Tớ bị ngốc, phiền cậu chat dài hơn và chi tiết hơn nhé !" };
+    return { type: "bot", text: "Xin lỗi, hệ thống chưa hiểu rõ yêu cầu của bạn. Bạn vui lòng nhập thêm thông tin về loại sản phẩm, mức giá hoặc nhu cầu cần tư vấn " };
   };
 
   const handleSend = async () => {
